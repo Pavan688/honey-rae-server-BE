@@ -1,0 +1,21 @@
+{
+    "editor.renderWhitespace": "all",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "python.formatting.autopep8Path": "/home/pavan_patel/.local/bin/autopep8",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--django-settings-module=honeyrae.settings",
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportGeneralTypeIssues": "none",
+        "python.formatting.autopep8Path": "/home/pavan_patel/.local/bin/autopep8",
+        "python.linting.pylintEnabled": true,
+        "python.analysis.diagnosticSeverityOverrides": {
+        "reportGeneralTypeIssues": "none"
+        }
+    },
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Viow Darker"
+}
